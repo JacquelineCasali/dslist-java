@@ -21,9 +21,11 @@ public class Game {
     private Double score;
     private String imgUrl;
 
+    //columnDefinition para acima de 255 caracteres
     @Column(columnDefinition = "TEXT")
     private String shortDescription;
 
+    //columnDefinition para acima de 255 caracteres
     @Column(columnDefinition = "TEXT")
     private String longDescription;
     public Game(){
