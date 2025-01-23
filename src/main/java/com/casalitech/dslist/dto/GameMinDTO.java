@@ -1,6 +1,8 @@
 package com.casalitech.dslist.dto;
 
 import com.casalitech.dslist.entities.Game;
+import com.casalitech.dslist.projections.GameMinProjection;
+
 public class GameMinDTO {
     private Long id;
     private String title;
@@ -17,7 +19,13 @@ public GameMinDTO(){
         this.imgUrl = entity.getImgUrl();
         this.shortDescription = entity.getShortDescription();
     }
-
+    public GameMinDTO(GameMinProjection projection) {
+        this.id = projection.getId();
+        this.title = projection.getTitle();
+        this.year = projection.getYear();
+        this.imgUrl = projection.getImgUrl();
+        this.shortDescription = projection.getShortDescription();
+    }
     public Long getId() {
         return id;
     }
