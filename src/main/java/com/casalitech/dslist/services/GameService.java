@@ -24,8 +24,8 @@ return games.stream().map(x -> new GameMinDTO(x)).toList();
    @Transactional(readOnly = true)
 public Game findById(Long id) throws Exception{
      return this.gameRepository.findById(id)
-              // se o game nao encontrado
-              .orElseThrow(()->new Exception("Game não encontrado"));
+              // se o id do game nao encontrado
+              .orElseThrow(()->new Exception("Id não encontrado"));
               };
 
 
