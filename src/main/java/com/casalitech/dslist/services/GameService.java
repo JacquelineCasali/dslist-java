@@ -28,12 +28,10 @@ return games.stream().map(x -> new GameMinDTO(x)).toList();
 
    }
 
+   //busca o jogos por lista
     @Transactional(readOnly = true)
     public List<GameMinDTO> findByList(Long listId){
-
-
-
-        List<GameMinProjection> gamelist= gameRepository.searchByList(listId);
+    List<GameMinProjection> gamelist= gameRepository.searchByList(listId);
         return gamelist.stream().map(x -> new GameMinDTO(x)).toList();
 
     }
