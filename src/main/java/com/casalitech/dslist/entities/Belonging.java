@@ -11,6 +11,7 @@ import java.util.Objects;
 //pertençe
 public class Belonging {
     @EmbeddedId
+
     private BelongingPK id = new BelongingPK();
     private Integer position;
 
