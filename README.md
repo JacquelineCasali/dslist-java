@@ -3,8 +3,7 @@
 
 ## 🛠 Imagem do Projeto
 ![games.png](games.png)
-![gameslist.png](..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2FDesktop%2Fgameslist.png)
-
+[Video do projeto.mp4](Video%20do%20projeto.mp4)
 ## Modelo de domínio DSList
 ![img.png](img.png)
 
