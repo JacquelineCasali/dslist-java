@@ -1,9 +1,14 @@
 
-
-
 ## 🛠 Imagem do Projeto
 ![games.png](games.png)
-[Video do projeto.mp4](Video%20do%20projeto.mp4)
+![gameslist](https://github.com/user-attachments/assets/70ef23a7-8a44-408d-8dbc-243322c9a19a)
+
+
+## Deploy 
+https://dslist-java.onrender.com/swagger-ui/index.html
+
+obs: o projeto está hospedado no render gratuito demora um pouco para rodar 
+
 ## Modelo de domínio DSList
 ![img.png](img.png)
 
@@ -15,7 +20,10 @@
 - **[Maven]**
 - **[H2]**
 - **[Postman]**
-- 
+- **[springdoc]**
+- **[postgresql]**
+- **[cors]**
+  
 ## Como executar o projeto 
 
 Pré-requisitos: Java 17
@@ -32,5 +40,6 @@ Autora
 Jacqueline Casali
 
 https://www.linkedin.com/in/jaquelinecasali/
+
 
 
